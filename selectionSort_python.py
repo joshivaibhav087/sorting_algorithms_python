@@ -17,8 +17,10 @@ def Selection_sort(arr):
     return arr
 
             
-# declaring array    
-arr = [5,2,7,4,8,1,9]
+# declaring array  
+
+s = input("enter the sequence: ")  
+arr = s.split()
 
 # calling finction
 print(Selection_sort(arr))

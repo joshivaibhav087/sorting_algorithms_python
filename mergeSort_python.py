@@ -29,6 +29,7 @@ def merge_sort(arr):
             k += 1
     return arr
 
-arr = [5,3,7,1,2,9,3,5,6]
+s = input("enter the sequence: ")
+arr = s.split()
 
 print(merge_sort(arr))

@@ -15,7 +15,9 @@ def bubble_sort(x):
                 x[j],x[j+1] = x[j+1], x[j]
     
 #call the function
-x = [5,2,3,6,1]
+
+s= input("enter the sequence: ")
+x =s.split() 
 bubble_sort(x)
 print(x)
 

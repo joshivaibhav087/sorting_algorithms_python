@@ -22,7 +22,9 @@ def quick_sort(arr):
     return quick_sort(quick_smaller) + [pivot] + quick_sort(quick_greater)
 
 # defining array
-arr = [5,1,6,2,7,3,8]
+s = input("enter the sequence: ")
+
+arr = s.split()
 
 # calling function 
 print(quick_sort(arr))

@@ -16,7 +16,8 @@ def insertion_sort(arr):
     return arr
 
 # passing array
-arr = [5,3,8,1,2,0,2,3,4,5]
+s = input("enter the sequence: ")
+arr = s.split()
 
 # calling function
 print(insertion_sort(arr))
